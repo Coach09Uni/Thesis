@@ -34,3 +34,5 @@ This code obtains all relevant information from selected channels. In addition, 
 | ---------- | ----- | ----- | ----- | ----- | ----- | ----- |
 | Timestamp | 1659311560 | 1659294102 | 1652823545 | 1658221905 | 1658239067 | 1659287201 |
 
+### Telegram_Pushshift_DataCollecting.py
+This code obtains all relevant information from selected accounts and channels. The investigated accounts and channels are in the files X and y.
