@@ -35,4 +35,10 @@ This code obtains all relevant information from selected channels. In addition, 
 | Timestamp | 1659311560 | 1659294102 | 1652823545 | 1658221905 | 1658239067 | 1659287201 |
 
 ### Telegram_Pushshift_DataCollecting.py
-This code obtains all relevant information from selected accounts and channels. The investigated accounts and channels are in the files X and y.
+This code obtains all relevant information from selected accounts and channels. The investigated accounts and channels are in the files 'usernameAccounts.csv' and 'usernameChannels.csv'.
+
+### Telegram_Pushshift_Messages.py
+All messages from selected channels are obtained if the messages are within a specific time period. The time period concept is the same as that of 'Telegram_Pushshift_DataCollecting.py'.
+| Channel | pjwnews | PROLIFEGANG | chileanshitposts | EcoFascistCentral | gay_trans_agenda | radicalagenda | 
+| ---------- | ----- | ----- | ----- | ----- | ----- | ----- |
+| Timestamp | 1567942333 | 1567869112 | 1567823352 | 1567964084 | 1567908474 | 1567991055 |
