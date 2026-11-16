@@ -28,3 +28,9 @@ subreddit name | 24hoursupport | 80smusic | Aliexpress | Buddhism | Ebay | Frenc
 
 The comparison is made using a small subset of the "Daily Counts Data" dataset from the paper "https://doi.org/10.1145/3757644". The file of the dataset "Daily Counts Data" can be downloaded via "https://drive.google.com/file/d/14J-jmKaq3HSn7gkL6duhYUWMu8QOOT-0/view?usp=sharing". A description is shown in "https://github.com/behavioral-data/moderator_discourse_public/tree/master".
 
+### Telegram_TGDataset.py
+This code obtains all relevant information from selected channels. In addition, messages and media are retrieved from a specific time period. The time period is: Timestamp (start) up to today (end), with a selected restriction on the maximum number of messages. For example, if the maximum number of messages is set to 1000, then all data after the 1000th message is ignored. The channels and timestamps are:
+| Channel | WesternJournal | weltdergesundheitTV | wirsindvielmehr | tlgdoc | tlstunnelinfo | transfers_live | 
+| ---------- | ----- | ----- | ----- | ----- | ----- | ----- |
+| Timestamp | 1659311560 | 1659294102 | 1652823545 | 1658221905 | 1658239067 | 1659287201 |
+
