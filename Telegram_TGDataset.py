@@ -27,7 +27,7 @@ client = TelegramClient("anon", api_id, api_hash)
 path = input("Path to the folder where the new file should be saved: ").strip().strip('"')
 
 # Timestamps that specify the time period for data collection
-# In this case, the time period is from today to the timestamp "offsets"
+# In this case, the time period is from the timestamp "offsets" to today or the parameter "limit"
 offsets = {"WesternJournal": 1659311560, "weltdergesundheitTV": 1659294102, "wirsindvielmehr": 1652823545,
            "tlgdoc": 1658221905, "tlstunnelinfo": 1658239067, "transfers_live": 1659287201}
 
@@ -168,7 +168,7 @@ async def main():
                         "tlstunnelinfo", "transfers_live"]
 
     if channels_to_find:
-        await download_content_by_name(channels_to_find, 10000) # 1000 is number of collected messages
+        await download_content_by_name(channels_to_find, 10000) # 1000 is the maximum number of collected messages
 
 with client:
     client.loop.run_until_complete(main())
